@@ -24,12 +24,15 @@ Weather Observation Analysis is a Python project that allows you to retrieve and
 ## Usage
 
 1. Open main.py and configure it to your needs
-2. Run the script: 'python main.py
+2. Run the script: ```shell 
+    python main.py
 
 ## Testing
 
-1. Return to project directory: 'cd ..'
-2. Run tests: py -m unittest discover tests
+1. Return to project directory: ```shell
+    cd ..
+2. Run tests: ```shell
+    py -m unittest discover tests
 
 ## Dependencies
 

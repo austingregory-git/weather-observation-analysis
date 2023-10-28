@@ -29,5 +29,9 @@ def get_lat_long(location):
     return latitude, longitude
 
 def split_city_state(location):
-        city, state = location.split(", ")
-        return city, state
+    city_state = location.split(", ")
+    if len(city_state) != 2:
+        raise Exception(f"{location} is not a valid location. Please enter a valid City, State Code combination (such as 'San Francisco, CA') or a valid 5-digit Zipcode.")
+    
+    city, state = city_state
+    return city, state
